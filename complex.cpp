@@ -99,5 +99,6 @@ int main() {
   cout << complex(2, -1).norm() << endl;
   cout << (10*complex(2, -1)).reverse() << endl;
   cout << (10*complex(2, -1)).reverse().norm() << endl;
+  cout << (10*complex(2, -1)).reverse().angle_deg() << endl;
   return 0;
 }
